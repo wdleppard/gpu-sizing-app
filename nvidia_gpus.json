@@ -1,0 +1,5 @@
+[
+  {"name": "NVIDIA A100", "memory": "40GB", "fp": "FP16, FP32, FP64"},
+  {"name": "NVIDIA H100", "memory": "80GB", "fp": "FP16, FP32, FP64"},
+  {"name": "NVIDIA L40S", "memory": "48GB", "fp": "FP16, FP32"}
+]
