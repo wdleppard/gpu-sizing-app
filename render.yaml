@@ -1,0 +1,7 @@
+
+services:
+  - type: web
+    name: gpu-sizing-app
+    env: docker
+    plan: free
+    dockerfilePath: ./docker-compose.yml
