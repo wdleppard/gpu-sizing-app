@@ -1,0 +1,21 @@
+
+services:
+  - type: web
+    name: gpu-sizing-backend
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile.backend
+    buildCommand: ''
+    startCommand: ''
+    autoDeploy: true
+    envVars: []
+
+  - type: web
+    name: gpu-sizing-frontend
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile.frontend
+    buildCommand: ''
+    startCommand: ''
+    autoDeploy: true
+    envVars: []
